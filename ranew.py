@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 from sseclient import SSEClient
 
 # ---------------- CONFIG ----------------
-BOT_TOKEN = "8514837953:AAEPBpD6UCNvR9QjoaY0FPwlNZNtKwWY918s"
+BOT_TOKEN = "8560577862:AAHJxRILO91m3wRINoVUM8vlcENOaCKIztE"
 
 # YOUR HARDCODED FIREBASE URL
 FIXED_FIREBASE_URL = "https://union-1-1b7ae-default-rtdb.asia-southeast1.firebasedatabase.app/.json"
@@ -674,5 +674,6 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         running = False
         print("Shutting down.")
+
 
 
