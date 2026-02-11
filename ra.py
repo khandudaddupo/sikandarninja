@@ -9,13 +9,13 @@ from datetime import datetime, timezone
 from sseclient import SSEClient
 
 # ---------------- CONFIG ----------------
-BOT_TOKEN = "Token"
+BOT_TOKEN = "8560577862:AAHJxRILO91m3wRINoVUM8vlcENOaCKIztE"
 
 if not BOT_TOKEN or BOT_TOKEN.strip() == "":
     print("❌ BOT_TOKEN missing inside ra.py file!")
     raise SystemExit(1)
 
-API_URL = f"https://api.telegram.org/bot{8560577862:AAHJxRILO91m3wRINoVUM8vlcENOaCKIztE}"
+API_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
 OWNER_IDS = [1216702307]
 PRIMARY_ADMIN_ID = 1216702307
 POLL_INTERVAL = 2
